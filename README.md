@@ -1,5 +1,6 @@
 ---
 title: GA4GH Metadata Standards
+layout: default
 permalink: /index.html
 ---
 
