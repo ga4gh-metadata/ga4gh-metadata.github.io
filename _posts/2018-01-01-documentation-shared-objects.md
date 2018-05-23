@@ -1,6 +1,17 @@
 ---
-title: Common - Dataset and Low Level Objects
+title: "Shared: Dataset and Low Level Objects"
+layout: default
+date: 2018-01-01
+permalink: /shared.html
+category: documentation
+tags:
+  - ga4gh
+  - documentation
+  - biometadata
+  - assaymetadata
 ---
+
+## {{ page.title }}
 
 ### OntologyTerm
 

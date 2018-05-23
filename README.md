@@ -1,5 +1,6 @@
 ---
 title: GA4GH Metadata Standards
+permalink: /index.html
 ---
 
 ## Welcome to the GA4GH Metadata Standards Repository
@@ -26,28 +27,17 @@ available via the GA4GH API, and facilities to organize primary data
 objects.
 
 #### General Data Formats & Standards
-* [Documentation](formats.html)
+* [Documentation](/formats.html)
 
 #### Shared Objects
-* [Documentation](shared.html)
+* [Documentation](/shared.html)
 * [download *shared metadata elements* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/shared.proto)
 
 #### Assay-Metadata
-* [Documentation](assaymetadata.html)
+* [Documentation](/assaymetadata.html)
 * [download *assay metadata* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/assaymetadata.proto)
 
 #### Bio-Metadata
-* [Documentation](biometadata.html)
+* [Documentation](/biometadata.html)
 * [download *bio metadata* specification](https://raw.githubusercontent.com/ga4gh-metadata/ga4gh-metadata/master/schemas/biometadata.proto)
 
-
-
----
-
-<!--
-
-{% include_relative formats.md %}
-
-
-[Bio-Metadata (full path)](https://github.com/ga4gh-metadata/ga4gh-metadata/blob/master/schema/bio_metadata.proto)
--->

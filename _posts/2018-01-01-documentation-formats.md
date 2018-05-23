@@ -1,8 +1,17 @@
 ---
-title: Common Attribute Names and Formats
+title: "Common Names and Formats"
+layout: default
+date: 2018-01-01
+permalink: /formats.html
+category: documentation
+tags:
+  - ga4gh
+  - documentation
+  - biometadata
+  - assaymetadata
 ---
 
-## Common Attribute Names and Formats
+## {{ page.title }}
 
 Throughout the schema definitions, a consistent use of common attributes should
 be enforced. The following list should serve as guidance for schema developers.

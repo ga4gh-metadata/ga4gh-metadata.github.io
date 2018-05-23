@@ -1,12 +1,22 @@
 ---
-title: Assaymetadata: Experiment and Analysis
+title: "Assaymetadata: Experiment and Analysis"
+layout: default
+date: 2018-01-01
+permalink: /assaymetadata.html
+category: documentation
+tags:
+  - ga4gh
+  - documentation
+  - assaymetadata
 ---
 
-## Assaymetadata: _Experiment_ Object
+## {{ page.title }}
+
+### Assaymetadata: _Experiment_ Object
 
 _Experiment_ in the GA4GH Metadata Schema
 
-### Experiment attributes
+#### Experiment attributes
 
 Attribute | Notes
 ------ | ------
@@ -17,11 +27,11 @@ Attribute | Notes
 *updated* | the time the record was updated, in ISO8601
 *attributes* | additional, structured information
 
-## AssayMetadata: *Analysis* Object
+### AssayMetadata: *Analysis* Object
 
 _Analysis_ in the GA4GH Schema
 
-### Analysis attributes
+#### Analysis attributes
 
 Attribute | Notes
 --- | ---

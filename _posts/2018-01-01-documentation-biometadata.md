@@ -1,10 +1,20 @@
 ---
-title: BioMetadata: Biosample & Individual
+title: "BioMetadata: Biosample & Individual"
+layout: default
+date: 2018-01-01
+permalink: /biometadata.html
+category: documentation
+tags:
+  - ga4gh
+  - documentation
+  - biometadata
 ---
 
-## BioMetadata: *Biosample* Object
+## {{ page.title }}
 
-### Biosample in the GA4GH Schema
+### BioMetadata: *Biosample* Object
+
+#### Biosample in the GA4GH Schema
 
 The majority of use cases of GA4GH
 schema compatible resources will serve to facilitate the retrieval of *molecular
@@ -18,7 +28,7 @@ environmental sample).
 In the GA4GH schema, a *Biosample* represents the main "biological
 item" against which molecular variants are referenced.
 
-### Biosample attributes
+#### Biosample attributes
 
 Attribute | Notes
 --- | ---
@@ -32,9 +42,9 @@ Attribute | Notes
 *updated* | the time the record was updated, in ISO8601
 *attributes* | additional, structured information
 
-#### Examples:
+##### Examples:
 
-Age definition:
+###### Age definition:
 
 ```json
 "individual_age_at_collection" : {
@@ -46,7 +56,7 @@ Age definition:
 },
 ```
 
-Structured representation of custom attributes:
+###### Structured representation of custom attributes:
 
 ```json
 "attributes" : {
@@ -67,9 +77,9 @@ Structured representation of custom attributes:
 ```
 
 
-## BioMetadata: *Individual* Object
+### BioMetadata: *Individual* Object
 
-### Individual in the GA4GH Schema
+#### Individual in the GA4GH Schema
 
 An *Individual* is a GA4GH data object representing a biological instance
 (most commonly a human being or other individual organism) on whose *Biosamples*
@@ -80,7 +90,7 @@ material like patient derived sputum, analyzed for its microbial content), the
 "species" context would still be the host; identified guest species would
 be described in analysis results.
 
-### Individual attributes
+#### Individual attributes
 
 Attribute | Notes
 --- | ---
@@ -94,9 +104,9 @@ Attribute | Notes
 *updated* | the time the record was updated, in ISO8601
 *attributes* | additional, structured information
 
-## BioMetadata: *BioCharacteristic* Object
+### BioMetadata: *BioCharacteristic* Object
 
-### BioCharacteristic in the GA4GH Schema
+#### BioCharacteristic in the GA4GH Schema
 
 A BioCharacteristic is an object, defining a single phenotype or diagnosis
 through the use of a free text description and a representation by one or
@@ -104,7 +114,7 @@ more "ontologyTerms" objects as well as zero or more "negatedOntologyTerms".
 An additional "scope" attribute allows to limit queries e.g. to "disease" type
 objects.
 
-Example use:
+##### Example use:
 
 ```json
 "bio_characteristics" : [

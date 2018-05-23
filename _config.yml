@@ -1,7 +1,25 @@
-theme: jekyll-theme-slate
-title: GA4GH Metadata Specifications
+title: GA4GH - Metadata
+label: GA4GH::Metadata
 email: meta@ga4ghdata.org
-#theme: minima
-plugins:
-  - jekyll-feed
-BASE_PATH: /ga4gh-metadata/docs
+github_organisation: ga4gh-metadata
+future: true
+navigation_categories:
+  news: News
+  documentation: Schema Documentation
+  howto: Examples & Guides
+navigation_static_links:
+  ga4gh:
+    url: "http://ga4gh.org"
+    label: "GA4GH Main Site"
+  ga4gh-gks:
+    url: "http://ga4gh-gks.github.io"
+    label: "GA4GH::GKS"
+  ga4gh-metadata:
+    url: "http://ga4gh-metadata.github.io"
+    label: "GA4GH::Metadata"
+  ga4gh-lsg:
+    url: "https://github.com/ga4gh/large-scale-genomics-wiki/wiki/"
+    label: "GA4GH Large Scale Genomics"   
+  ga4gh-github:
+    url: "https://github.com/ga4gh/"
+    label: "GA4GH Github Projects"
