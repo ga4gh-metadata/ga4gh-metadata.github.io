@@ -28,15 +28,19 @@ Attribute        | Note
 ### Date and Time Format Specifications
 
 * external information: [ISO8601](https://www.w3.org/TR/NOTE-datetime)
+* [xkcd](https://xkcd.com/1179/):
+
+
+<p align="center">
+  <img src="https://imgs.xkcd.com/comics/iso_8601.png" />
+</p>
+
 
 Date and time formats are specified as ISO8601 compatible strings, both for
 time points as well as for intervals and durations.
 An optional required granularity may be specified as part of the respective
 attributes' documentations.
 
-<p align="center">
-  <img src="https://imgs.xkcd.com/comics/iso_8601.png" />
-</p>
 
 #### Units of time
 
