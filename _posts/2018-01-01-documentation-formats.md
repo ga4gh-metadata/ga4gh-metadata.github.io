@@ -34,6 +34,10 @@ time points as well as for intervals and durations.
 An optional required granularity may be specified as part of the respective
 attributes' documentations.
 
+<p align="center">
+  <img src="https://imgs.xkcd.com/comics/iso_8601.png" />
+</p>
+
 #### Units of time
 
 * *Y* = year
