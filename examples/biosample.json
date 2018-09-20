@@ -12,11 +12,11 @@
 					"term_label" : "Ductal Breast Carcinoma"
 				},
 				{
-					"term_id" : "pgx:icdom:8500_3",
+					"term_id" : "pgx:icdom:85003",
 					"term_label" : "invasive carcinoma of no special type"
 				},
 				{
-					"term_id" : "pgx:icdot:C50",
+					"term_id" : "pgx:icdot:c50",
 					"term_label" : "breast"
 				},
 				{
