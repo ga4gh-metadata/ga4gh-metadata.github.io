@@ -1,12 +1,12 @@
 ---
-title: "New Schemas Project: __SchemaBlocks__"
+title: "New Schemas Project: SchemaBlocks"
 date: 2018-05-23
 layout: default
 author: mbaudis
 excerpt_separator: <!--more-->
 category:
   - news
-  - SchemaBlocks
+  - schemablocks
 ---
 
 ## {{ page.title }}
