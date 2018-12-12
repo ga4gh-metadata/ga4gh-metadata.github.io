@@ -13,7 +13,7 @@ category:
 
 <!--  CONTENT  -->
 
-The new schema developments will happen under the [SchemaBlocks](https://schemablocks.org/) umbrella project.
+The new schema developments will happen under the [SchemaBlocks](http://schemablocks.org/) umbrella project.
 
 <!--more-->
 
