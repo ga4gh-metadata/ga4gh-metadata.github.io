@@ -18,6 +18,9 @@ navigation_static_links:
   ga4gh-metadata:
     url: "http://ga4gh-metadata.github.io"
     label: "GA4GH::Metadata"
+  schemablocks:
+    url: "http://schemablocks.org"
+    label: "GA4GH SchemaBlocks"
   ga4gh-lsg:
     url: "https://github.com/ga4gh/large-scale-genomics-wiki/wiki/"
     label: "GA4GH Large Scale Genomics"
